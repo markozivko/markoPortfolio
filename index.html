@@ -3,8 +3,23 @@
     <head>
         <meta charset = "utf8">
         <title>Marko's personal page</title>
+
+        <!-- this is internal CSS example-->
+        <style>
+            body { 
+                background-color: #f1f3f8;
+            }
+            hr { 
+                border-style: dotted none none;
+                border-color: black;
+                border-width: 20px;
+                width: 10%;
+            }
+        </style>
     </head>
 
+    <!-- this is a inline CSS example-->
+    <!--<body style="background-color:#d6e0f0">-->
     <body>
         <table cellspacing="20">
             <tbody>
@@ -19,14 +34,14 @@
             </tbody>
         </table>
         
-        <hr size="3" noshade>
+        <hr>
 
         <h2>Education</h2>
         <ul>
             <li><a href="https://www.rit.edu/">RIT</a> - Rochester Institute of Technology</li>
             <li><a href="https://www.ruc.dk/">RUC</a> - Roskilde University</li>
         </ul>
-        <hr size="3" noshade>
+        <hr>
 
         <h2>Technologies & Skills</h2>
         <table cellspacing="5">
@@ -71,12 +86,13 @@
                 </tr>
             </tbody>
         </table>
-        <hr size="3" noshade>
+        <hr>
 
         <h2>Experience</h2>
         <!-- this is a comment saying border style in HTML is depricated
         do not use it, it will be changed later when CSS is entoduced-->
-        <table border="1">
+        <!-- <table border="1">-->
+        <table>
             <thead>
                 <tr>
                     <th>Date</th>
@@ -106,7 +122,7 @@
                 </tr>
             </tbody>
         </table>
-        <hr size="3" noshade="">
+        <hr>
         <a href="contact.html">Click to contact me</a>
 
     </body>
