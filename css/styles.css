@@ -1,3 +1,4 @@
+/************************ TAG SELECTORS *************************/
 body { 
     background-color: #f1f3f8;
 }
@@ -14,4 +15,12 @@ h1 {
 
 h2 { 
     color: #393b44;
+}
+
+/************************ ID SELECTORS *************************/
+#profile-image { 
+    border-radius: 100%;
+    border-width: 10px;
+    border-color: #393b44;
+    border-style: double;
 }
